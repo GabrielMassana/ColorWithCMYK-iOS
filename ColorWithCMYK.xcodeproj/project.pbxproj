@@ -12,6 +12,7 @@
 		C000C3DD1CB1116100DA9A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C000C3DB1CB1116100DA9A89 /* LaunchScreen.storyboard */; };
 		C000C3E81CB112A200DA9A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000C3E61CB112A200DA9A89 /* AppDelegate.swift */; };
 		C000C3E91CB112A200DA9A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000C3E71CB112A200DA9A89 /* ViewController.swift */; };
+		C000C3EB1CB199C800DA9A89 /* UIColor+CMYK.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000C3EA1CB199C800DA9A89 /* UIColor+CMYK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C000C3DE1CB1116100DA9A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C000C3E61CB112A200DA9A89 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C000C3E71CB112A200DA9A89 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C000C3EA1CB199C800DA9A89 /* UIColor+CMYK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CMYK.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		C000C3E41CB1129900DA9A89 /* ColorWithCMYK-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C000C3EA1CB199C800DA9A89 /* UIColor+CMYK.swift */,
 			);
 			path = "ColorWithCMYK-iOS";
 			sourceTree = SOURCE_ROOT;
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C000C3EB1CB199C800DA9A89 /* UIColor+CMYK.swift in Sources */,
 				C000C3E91CB112A200DA9A89 /* ViewController.swift in Sources */,
 				C000C3E81CB112A200DA9A89 /* AppDelegate.swift in Sources */,
 			);
