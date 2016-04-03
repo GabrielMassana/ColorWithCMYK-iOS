@@ -12,6 +12,16 @@ import UIKit
 
 public extension UIColor {
 
+    /**
+     Creates UIColor object based on given CMYK values.
+
+     - parameter C: CGFloat with the C(cyan) value. C value must be between 0.0 and 1.0.
+     - parameter M: CGFloat with the M(magenta) value. M value must be between 0.0 and 1.0.
+     - parameter Y: CGFloat with the Y(yellow) value. Y value must be between 0.0 and 1.0.
+     - parameter K: CGFloat with the K(black) value. K value must be between 0.0 and 1.0.
+
+     - returns: A UIColor from the given CMYK values.
+     */
     @objc(cmyk_colorWithC:M:Y:K:)
     public class func colorWithCMYK(c c: CGFloat, m: CGFloat, y: CGFloat, k: CGFloat) -> UIColor? {
         
