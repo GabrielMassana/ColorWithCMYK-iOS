@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ColorWithCMYK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Swift Extension to convert CMYK values into UIColor Objects."
 
   s.homepage     = "https://github.com/GabrielMassana"
