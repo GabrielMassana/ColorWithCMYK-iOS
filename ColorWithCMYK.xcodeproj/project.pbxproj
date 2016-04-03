@@ -13,7 +13,18 @@
 		C000C3E81CB112A200DA9A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000C3E61CB112A200DA9A89 /* AppDelegate.swift */; };
 		C000C3E91CB112A200DA9A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000C3E71CB112A200DA9A89 /* ViewController.swift */; };
 		C000C3EB1CB199C800DA9A89 /* UIColor+CMYK.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000C3EA1CB199C800DA9A89 /* UIColor+CMYK.swift */; };
+		C000C3F31CB1A95C00DA9A89 /* ColorWithCMYKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C000C3F21CB1A95C00DA9A89 /* ColorWithCMYKTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C000C3F51CB1A95C00DA9A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C000C3C71CB1116100DA9A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C000C3CE1CB1116100DA9A89;
+			remoteInfo = ColorWithCMYK;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C000C3CF1CB1116100DA9A89 /* ColorWithCMYK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorWithCMYK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +35,20 @@
 		C000C3E61CB112A200DA9A89 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C000C3E71CB112A200DA9A89 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C000C3EA1CB199C800DA9A89 /* UIColor+CMYK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CMYK.swift"; sourceTree = "<group>"; };
+		C000C3F01CB1A95C00DA9A89 /* ColorWithCMYKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorWithCMYKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C000C3F21CB1A95C00DA9A89 /* ColorWithCMYKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWithCMYKTests.swift; sourceTree = "<group>"; };
+		C000C3F41CB1A95C00DA9A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C000C3CC1CB1116100DA9A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C000C3ED1CB1A95C00DA9A89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				C000C3D11CB1116100DA9A89 /* ColorWithCMYK */,
+				C000C3F11CB1A95C00DA9A89 /* ColorWithCMYKTests */,
 				C000C3D01CB1116100DA9A89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				C000C3CF1CB1116100DA9A89 /* ColorWithCMYK.app */,
+				C000C3F01CB1A95C00DA9A89 /* ColorWithCMYKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +106,15 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		C000C3F11CB1A95C00DA9A89 /* ColorWithCMYKTests */ = {
+			isa = PBXGroup;
+			children = (
+				C000C3F21CB1A95C00DA9A89 /* ColorWithCMYKTests.swift */,
+				C000C3F41CB1A95C00DA9A89 /* Info.plist */,
+			);
+			path = ColorWithCMYKTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +135,24 @@
 			productReference = C000C3CF1CB1116100DA9A89 /* ColorWithCMYK.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C000C3EF1CB1A95C00DA9A89 /* ColorWithCMYKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C000C3F71CB1A95C00DA9A89 /* Build configuration list for PBXNativeTarget "ColorWithCMYKTests" */;
+			buildPhases = (
+				C000C3EC1CB1A95C00DA9A89 /* Sources */,
+				C000C3ED1CB1A95C00DA9A89 /* Frameworks */,
+				C000C3EE1CB1A95C00DA9A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C000C3F61CB1A95C00DA9A89 /* PBXTargetDependency */,
+			);
+			name = ColorWithCMYKTests;
+			productName = ColorWithCMYKTests;
+			productReference = C000C3F01CB1A95C00DA9A89 /* ColorWithCMYKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +165,10 @@
 				TargetAttributes = {
 					C000C3CE1CB1116100DA9A89 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					C000C3EF1CB1A95C00DA9A89 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C000C3CE1CB1116100DA9A89;
 					};
 				};
 			};
@@ -132,6 +186,7 @@
 			projectRoot = "";
 			targets = (
 				C000C3CE1CB1116100DA9A89 /* ColorWithCMYK */,
+				C000C3EF1CB1A95C00DA9A89 /* ColorWithCMYKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +199,13 @@
 				C000C3DD1CB1116100DA9A89 /* LaunchScreen.storyboard in Resources */,
 				C000C3DA1CB1116100DA9A89 /* Assets.xcassets in Resources */,
 				C000C3D81CB1116100DA9A89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C000C3EE1CB1A95C00DA9A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +222,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C000C3EC1CB1A95C00DA9A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C000C3F31CB1A95C00DA9A89 /* ColorWithCMYKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C000C3F61CB1A95C00DA9A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C000C3CE1CB1116100DA9A89 /* ColorWithCMYK */;
+			targetProxy = C000C3F51CB1A95C00DA9A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C000C3D61CB1116100DA9A89 /* Main.storyboard */ = {
@@ -285,6 +363,30 @@
 			};
 			name = Release;
 		};
+		C000C3F81CB1A95C00DA9A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorWithCMYKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.ColorWithCMYKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorWithCMYK.app/ColorWithCMYK";
+			};
+			name = Debug;
+		};
+		C000C3F91CB1A95C00DA9A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorWithCMYKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.ColorWithCMYKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorWithCMYK.app/ColorWithCMYK";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -305,6 +407,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C000C3F71CB1A95C00DA9A89 /* Build configuration list for PBXNativeTarget "ColorWithCMYKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C000C3F81CB1A95C00DA9A89 /* Debug */,
+				C000C3F91CB1A95C00DA9A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
