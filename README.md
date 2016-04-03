@@ -48,8 +48,11 @@ Drag into your project the folder `/ColorWithCMYK-iOS`. That's all.
 #import "ColorWithCMYK-Swift.h"
 
 ...
-
-       
+    UIColor *black = [UIColor cmyk_colorWithC:0.0 M:0.0 Y:0.0 K:1.0];
+    UIColor *white = [UIColor cmyk_colorWithC:0.0 M:0.0 Y:0.0 K:0.0];
+    UIColor *red = [UIColor cmyk_colorWithC:0.0 M:1.0 Y:1.0 K:0.0];
+    UIColor *green = [UIColor cmyk_colorWithC:1.0 M:0.0 Y:1.0 K:0.0];
+    UIColor *blue = [UIColor cmyk_colorWithC:1.0 M:1.0 Y:0.0 K:0.0];
 ```
 ## License
 
