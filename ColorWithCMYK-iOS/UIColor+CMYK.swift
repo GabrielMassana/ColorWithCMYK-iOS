@@ -13,7 +13,7 @@ import UIKit
 public extension UIColor {
 
     @objc(cmyk_colorWithC:M:Y:K:)
-    func colorWithCMYK(c c: CGFloat, m: CGFloat, y: CGFloat, k: CGFloat) -> UIColor? {
+    public class func colorWithCMYK(c c: CGFloat, m: CGFloat, y: CGFloat, k: CGFloat) -> UIColor? {
         
         guard c <= 1.0 && c >= 0.0 else { return nil }
         guard m <= 1.0 && m >= 0.0 else { return nil }
