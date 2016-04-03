@@ -10,7 +10,7 @@
 
 Swift Extension to convert CMYK values into UIColor Objects.
 
-
+The CMYK color model (process color, four color) is a subtractive color model, used in color printing, and is also used to describe the printing process itself. CMYK refers to the four inks used in some color printing: cyan, magenta, yellow, and key (black).
 
 ## Installation
 
